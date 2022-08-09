@@ -3,7 +3,7 @@ import random
 
 
 def main():
-    vocab_terms =[]
+    vocab_terms = []
     vocab_definitions = []
     answer_type = input("What language do you want to answer in?: ").strip().lower()
 
