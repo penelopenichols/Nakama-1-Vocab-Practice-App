@@ -32,7 +32,7 @@
 はんとし,a half-year
 ひこうき,airplane
 びじゅつかん,art museum
-プレゼント,present, gift
+プレゼント,present
 まつり/おまつり,festival
 ミュージカル,musical
 やまのぼり,mountain climbing
