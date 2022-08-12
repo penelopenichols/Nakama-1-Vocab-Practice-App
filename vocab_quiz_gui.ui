@@ -9,82 +9,116 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>285</width>
+    <height>223</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>日本語 Vocab Practice</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label_text_asnwer_language">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>321</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Choose what language to answer in:</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_english">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>70</y>
-      <width>80</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>English</string>
-    </property>
-    <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_radio_language</string>
-    </attribute>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_japanese">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>100</y>
-      <width>80</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Japanese</string>
-    </property>
-    <attribute name="buttonGroup">
-     <string notr="true">buttonGroup_radio_language</string>
-    </attribute>
-   </widget>
-   <widget class="QPushButton" name="pushButton_start">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>140</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Start</string>
-    </property>
-   </widget>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="radioButton_japanese">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>日本語</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radio_language</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton_start">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_text_asnwer_language">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Choose What Language to Answer in:</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="radioButton_english">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>English</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radio_language</string>
+      </attribute>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>640</width>
+     <width>285</width>
      <height>22</height>
     </rect>
    </property>
