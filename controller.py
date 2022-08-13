@@ -5,7 +5,15 @@ import random
 
 
 class quizWindow(QMainWindow, Quiz):
+    """
+    Class for the quiz window screen
+    """
     def __init__(self, *args, **kwargs):
+        """
+        Defines the initialization of the quizWindow class object
+        :param args: Takes arguments from quiz.py
+        :param kwargs: Takes arguments from quiz.py
+        """
         super().__init__(*args, **kwargs)
         self.setupUi(self)
         self.exclude_search = []
@@ -26,6 +34,10 @@ class quizWindow(QMainWindow, Quiz):
         self.pushButton_restart.clicked.connect(lambda: self.view_quiz_mode())
 
     def view_quiz_mode(self):
+        """
+        Sets the elements for the quiz visible and the elements for the 'Finish' screen invisible.
+        Runs self.new_term()
+        """
         self.total_questions = 0
         self.total_correct_answers = 0
         self.label_text_feedback.setVisible(False)
@@ -46,6 +58,11 @@ class quizWindow(QMainWindow, Quiz):
         self.new_term()
 
     def view_finish_mode(self):
+        """
+        Sets the elements for the quiz invisible and the elements for the 'Finish' screen visible.
+        Runs self.display_score()
+        :return:
+        """
         self.label_text_question.setVisible(False)
         self.label_var_term.setVisible(False)
         self.pushButton_answer_A.setVisible(False)
@@ -64,6 +81,9 @@ class quizWindow(QMainWindow, Quiz):
         self.display_score()
 
     def new_term(self):
+        """
+        Sets up the UI to display the new question as well as sets the correct and incorrect answers
+        """
         self.exclude_search = []
         self.current_term = random.randint(0, len(self.terms) - 1)
         self.label_var_term.setText(self.terms[self.current_term])
@@ -100,11 +120,19 @@ class quizWindow(QMainWindow, Quiz):
             self.pushButton_answer_C.setText(self.definitions[self.incorrect_answers()])
 
     def incorrect_answers(self):
+        """
+        Creates dummy answers to display in the non-correct answer pushButtons for each term
+        :return: a random int in range of self.terms as long as it is not in self.exclude_search
+        """
         incorrect_answer = random.choice([i for i in range(0, len(self.terms) - 1) if i not in self.exclude_search])
         self.exclude_search.append(incorrect_answer)
         return incorrect_answer
 
     def answered(self, letter):
+        """
+        Tallies correct answers, gives you visual feedback on whether the answer was correct or not
+        :param letter: the letter of the button clicked. Checks if this letter matches self.answer
+        """
         self.total_questions += 1
         self.label_text_feedback.setVisible(True)
         if letter == self.answer:
@@ -119,6 +147,10 @@ class quizWindow(QMainWindow, Quiz):
         self.new_term()
 
     def display_score(self):
+        """
+        When the 'Finish' button is clicked, displays score as a ratio and a percentage.
+        Changes text color based on amount of correct answers over the total questions asked.
+        """
         percentage = (self.total_correct_answers/self.total_questions) * 100
         self.label_score.setText(f"{self.total_correct_answers}/{self.total_questions}")
         self.label_percentage.setText(f"Or: {percentage:.1f}%")

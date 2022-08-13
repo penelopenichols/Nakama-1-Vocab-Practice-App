@@ -2,6 +2,9 @@ from controller import *
 
 
 def main():
+    """
+    runs the application. Displays the GUI
+    """
     app = QApplication([])
     window = quizWindow()
     window.show()
