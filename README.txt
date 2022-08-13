@@ -1,0 +1,1 @@
+make sure 'Japanese Vocab Quiz.exe' and 'vocab.csv' are in the same folder
