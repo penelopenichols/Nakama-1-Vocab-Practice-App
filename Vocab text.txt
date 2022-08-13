@@ -29,7 +29,7 @@
 はくぶつかん,museum
 バレンタインデー,St. Valentine's Day
 ハロウィン,Halloween
-はんとし,a half-year
+はんとし,a half,year
 ひこうき,airplane
 びじゅつかん,art museum
 プレゼント,present
@@ -56,3 +56,153 @@
 いちねんまえ,one year ago
 えーと,well/let's see ...
 あけましておめでとうございます,Happy New Year!
+あき,fall/autumn
+あめ,rain
+おんど,temperature
+かぜ,wind
+きおん,air temperature
+きこう,climate
+きせつ,season
+きた,north
+きょねん,last year
+くも,cloud
+くもり,cloudy
+けさ,this morning
+ことし,this year
+さいきん,recent/recently
+しつど,humidity
+たいふう,typhoon
+つゆ,rainy season
+てんき,weather
+てんきよほう,weather forecast
+なつ,summer
+なんせい,southwest
+なんとう,southeast
+にし,west
+にわかあめ,shower (rain)
+はる,spring
+はれ,sunny/clear skies
+ひがし,east
+ふゆ,winter
+ほう,direction
+ほくせい,northwest
+ほくとう,northeast
+マイナス,minus
+みなみ,south
+ゆうがた,evening
+ゆき,snow
+よる,night
+あがる,to rise/to go up
+くもる,to become cloudy
+さがる,to fall/to go down
+しる、しっている,to come to know/ to know
+しらない,don't know
+つづく,to continue
+つもる,to accumulateふく,to blow
+ふる,to fall
+やむ、あめがやむ,to stop/ the rain stops
+はれる,to come sunny
+あたたかい,warm
+あつい,hot
+さむい,cold
+すずしい,cool
+つよい,strong
+はやい,early
+むしあつい,humid
+よわい,weak
+わるい,bad
+いや,unpleasant/yuck
+きゅう,sudden
+きゅうに,suddenly
+〜がつ,month
+〜ど,degree/temperature
+〜のち〜,after
+あめのちはれ,sunny after rain
+ほんとう/ほんと,truly/really/indeed
+くもりときどきあめ,cloudy with occasional rain
+あし,leg
+あたま,head
+あたまがいい,smart/intelligent
+あに,older brother (the speaker's)
+あね,older sister (the speaker's)
+いもうと,younger sister (the speaker's)
+いもうとさん,younger sister (someone else's)
+おかあさん,mother (someone else's)
+おくさん,wife (someone else's)
+おこさん,child (someone else's)
+おじいさん,grandfather (someone else's)
+おとうさん,father (someone else's)
+おとうと,younger brother (the speaker's)
+おとうとさん,younger brother (someone else's)
+おとこ,male
+おとこのひと,man/men
+おにいさん,older brother (someone else's)
+おねえさん,older sister (someone else's)
+おばあさん,grandmother (someone else's)
+おんな,female
+おんなのひと,woman/women
+かいしゃいん,businessperson
+かお,face
+かぞく,family (the speaker's)
+かみ/かみのけ,hair
+きょうだい,siblings (the speakers)
+くち,mouth
+けっこんする,to marry 
+こ,child
+ごかぞく,family (someone else's)
+ごきょうだい,siblings (someone else's)
+ごしゅじん,husband (someone else's)
+こども,child/children
+しゅじん,husband (the speaker's)
+せ,back (part of the body)/height (of a person)
+せが たかい,tall (height)
+せが ひくい,short (height)
+せいかく,personality
+そふ,grandfather (the speaker's)
+そぼ,grandmother (the speaker's)
+ちち,father (the speaker's)
+つま,wife (the speaker's)
+て,hand/arm
+とし,age
+としうえ,elder/older
+としした,younger
+はな,nose
+はは,mother (the speaker's)
+ひとりっこ,only child
+ブロンド,blond
+まんなか,center/middle/middle child
+みみ,ear
+め,eye
+めがね,glasses
+〜と おもう,to think
+〜を かぶる,to put on (a hat or cap)
+〜に すむ,to reside
+〜 はく,to put on (skirt/pants/socks/shoes)
+ふとる,to gain weight
+〜 わかる,to understand
+〜 かける,to put on (glasses)
+〜 きる,to put on (sweater/shirt/jacket)
+〜に つとめる,to become employed
+やせる,to lose weight
+〜を する,to put on (accessories)
+〜ている,resultant state
+あかるい,cheerful
+かっこいい,good,looking/cool/neat
+かわいい,cute/adorable
+しかくい,square
+ながい,long
+ほそながい,long/elongated
+まるい,round
+みじかい,short (length)
+じょうず,good at/skillful
+しんせつ,kind
+いくつ,How old ?
+しょうがくせい,elementary school student
+ちゅうがくせい,middle school student
+かた,person
+〜さい,~ years old
+〜にん,~ people (counter)
+〜ばんめ,~th (ordinal suffix)
+それに,in addition
+いいえ、そんなことはありません。,No/that's not the case
+いいえ、まだまだです,No/I still have a long way to go
